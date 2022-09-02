@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video App Like VUDU</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css.map">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+      <nav id="nav" class="navbar navbar-expand-lg navbar-dark bg-primary px-4">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <h3>Logo</h3>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link text-light fw-bold" href="#">Movies</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light fw-bold" href="#">Tv</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light fw-bold" href="#">Free</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Language
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">English</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Arabic</a></li>
+                      <li><a class="dropdown-item" href="#">Spanish</a></li>
+                      <li><a class="dropdown-item" href="#">Turkey</a></li>
+                    </ul>
+                  </li>
+            </ul>
+            <div class="d-flex">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link text-light fw-bold" href="#">Gift Card</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-light fw-bold" href="#">Sign In</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-light" href="#">
+                        <i class="fa fa-search"></i>
+                      </a>
+                    </li>
+                  </ul>
+            </div>
+        </div>
+      </nav>
+
+
+
+
+
+      <main class="row text-white px-5 video">
+        <div class="col my-5 row video-info">
+            <div class="col-2 w-auto">
+                <img src="https://images2.vudu.com/poster2/2042753-168" alt="">
+            </div>
+            <div class="col">
+                <h2>Rumble</h2>
+                <p>Comedy | Animation | Aug <span class="badge bg-secondary">PG</span> <span class="badge bg-secondary">12min</span> <span class="badge bg-secondary">CC</span></p>
+                <p>A girl trains a lovable underdog monster to become a wrestling champion.</p>
+                <button type="button" class="btn btn-primary" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" >Play Video</button>
+            </div>
+        </div>
+        <div class="col bg-img">
+            <!-- <img src="https://images2.vudu.com/background/2042753-1280a.jpg" alt=""> -->
+        </div>
+      </main>
+
+
+      <!-- Video Modal -->
+      <!-- Full screen modal -->
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Video Title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <video class="video-player" src="https://images2.vudu.com/uiEntry/46574/video.mp4" controls></video>
+      </div>
+      <div class="modal-footer">
+       
+      </div>
+    </div>
+  </div>
+</div>
+
+      <hr class="text-primary mt-5"/>
+
+      <div class="more text-white mx-5 my-5">
+        <h5>More Info</h5>
+        <div class="row">
+            <ul class="list-unstyled text-white mi col">
+                <li>Genre: <span class="text-secondary">Comedy/Animation</span></li>
+                <li>Length: 95 minutes</li>
+                <li>Released: Aug 8</li>
+                <li>Rating: PG</li>
+                <li>Studio: Paramount Pictures</li>
+                <li>Language: English</li>
+                <li>Rotten Tomatoes® Score  ROTTEN47%</li>
+            </ul>
+            
+            <ul class="list-unstyled text-white mi col">
+                <li><span class="badge badge-outline bg-secondary">UHD</span> 4K, Dolby Vision, HDR10, Dolby Atmos <span class="text-secondary">Are you UHD ready?</span></li>
+                <li><span class="badge bg-secondary">HDX</span> 1080p, Dolby Digital Plus 5.1</li>
+                <li><span class="badge bg-secondary">SD</span> &nbsp;&nbsp;&nbsp;480p, Enhanced Widescreen, Dolby Digital Plus 5.1</li>
+                <li><span class="badge bg-secondary">CC</span> &nbsp;&nbsp; English</li>
+                <li><span class="badge bg-secondary">AD</span> &nbsp;&nbsp; Audio Description</li>
+            </ul>
+
+        </div>
+      </div>
+
+ 
+      <hr class="text-primary"/>
+
+        <footer class="px-5">
+          <div class="d-flex dwn">
+            <img src="./img/app store.png" alt="">
+            <img src="./img/play store.png" alt="">
+            <img src="./img/ms store.png" alt="">
+          </div>
+
+          <footer class="main row px-4 py-4">
+            <div class="col">
+              <h4 class="text-white">Watch</h4>
+              <ul class="list-unstyled text-white">
+                <li>Spotlight</li>
+                <li>Movies</li>
+                <li>TV</li>
+                <li>Free</li>
+              </ul>
+            </div>
+
+
+            <div class="col">
+              <h4 class="text-white">My Account</h4>
+              <ul class="list-unstyled text-white">
+                <li>My Vudu</li>
+                <li>Account</li>
+                <li>Settings</li>
+                <li>Manage Devices</li>
+              </ul>
+            </div>
+
+
+            <div class="col">
+              <h4 class="text-white">Features</h4>
+              <ul class="list-unstyled text-white">
+                <li>Lists</li>
+                <li>Family</li>
+                <li>Disc to Digital</li>
+                <li>Movies Anywhere</li>
+                <li>Gift Cards</li>
+              </ul>
+            </div>
+            <div class="col">
+              <h4 class="text-white">Help</h4>
+              <ul class="list-unstyled text-white">
+                <li>About Us</li>
+                <li>Devices</li>
+                <li>Customer Support</li>
+                <li>Forums</li>
+                <li>Contact Us</li>
+                <li>Advertise</li>
+                <li>Accessibility</li>
+                <li>Jobs</li>
+              </ul>
+            </div>
+            <div class="col">
+            </div>
+
+            <div class="d-flex icons d-flex justify-content-end">
+              <a href="" class="bg-info">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="" class="bg-primary">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="" class="bg-info">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a href="" class="bg-danger">
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+            </div>
+            <p>
+              <a class="terms" href="">Terms and PoliciesYour Privacy Rights - Privacy PolicyAdChoicesDo Not Sell My Personal InformationCalifornia NoticeFeedback</a>
+            </p>
+
+          </footer>
+        </footer>
+
+      <script src="./js/bootstrap.js"></script>
+      <script src="./js/bootstrap.js.map"></script>
+</body>
+</html>

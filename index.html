@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video App Like VUDU</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css.map">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+      <nav id="nav" class="navbar navbar-expand-lg navbar-dark bg-primary px-4">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <h3>Logo</h3>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link text-light fw-bold" href="#">Movies</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light fw-bold" href="#">Tv</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light fw-bold" href="#">Free</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Language
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">English</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Turkish</a></li>
+                      <li><a class="dropdown-item" href="#">Arabic</a></li>
+                      <li><a class="dropdown-item" href="#">Spanish</a></li>
+                    </ul>
+                  </li>
+            </ul>
+            <div class="d-flex">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link text-light fw-bold" href="#">Gift Card</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-light fw-bold" href="#">Sign In</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-light" href="#">
+                        <i class="fa fa-search"></i>
+                      </a>
+                    </li>
+                  </ul>
+            </div>
+        </div>
+      </nav>
+
+
+
+
+            <!-- Language -->
+      <!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button> -->
+
+<!-- Modal -->
+<!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Select Your Language</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <select class="form-select" aria-label="Default select example">
+          <option selected>Language</option>
+          <option value="1">English</option>
+          <option value="2">Turkish</option>
+          <option value="3">Spanish</option>
+        </select>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Save</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+
+
+
+
+      <div class="spns h-5 bg-dark">
+    Hello
+      </div>
+
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://images2.vudu.com/uiEntry/46627/placard-1500.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://images2.vudu.com/uiEntry/46634/placard-1500.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <!-- <img src="" class="d-block w-100" alt="..."> -->
+            <video src="https://images2.vudu.com/uiEntry/46574/video.mp4" class="d-block w-100"></video>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="banner  d-flex">
+        <img class="py-5 mx-auto " src="https://images2.vudu.com/assets/row/banner/208960-1305" alt="">
+      </div>
+
+
+      <hr class="text-primary"/>
+      <!-- Videos -->
+
+        <div class="p-4 text-light">
+          <h2>Videos</h2>
+
+          <div class="grid">
+            <a href="/video.html">
+            <div class="single">
+              <img class="d-block m-auto" src="https://images2.vudu.com/assets/content/poster/2042753-144" alt="">
+              <div class="info">
+                <div class="txt">
+                  <h1 class="fs-5">Rumble</h1>
+                  <span><b class="text-sm">Aug 22 </b><span class="badge bg-secondary">12min</span></span>
+                </div>
+                <button type="button" class="btn btn-outline-info btn-sm text-white d-block w-100 p-1">More</button>
+              </div>
+            </div>
+          </a>
+            <a href="/video.html">
+            <div class="single">
+              <img class="d-block m-auto" src="https://images2.vudu.com/assets/content/poster/2083672-144" alt="">
+              <div class="info">
+                <div class="txt">
+                  <h1 class="fs-5">DC League of Super-Pets</h1>
+                  <span><b class="text-sm">Aug 22 </b><span class="badge bg-secondary">12min</span></span>
+                </div>
+                <button type="button" class="btn btn-outline-info btn-sm text-white d-block w-100 p-1">More</button>
+              </div>
+            </div>
+          </a>
+            <a href="/video.html">
+            <div class="single">
+              <img class="d-block m-auto" src="https://images2.vudu.com/assets/content/poster/2087468-144" alt="">
+              <div class="info">
+                <div class="txt">
+                  <h1 class="fs-5">Minions/Minions: The Rise of Gru (Bundle)</h1>
+                  <span><b class="text-sm">Aug 22 </b><span class="badge bg-secondary">12min</span></span>
+                </div>
+                <button type="button" class="btn btn-outline-info btn-sm text-white d-block w-100 p-1">More</button>
+              </div>
+            </div>
+          </a>
+            <a href="/video.html">
+            <div class="single">
+              <img class="d-block m-auto" src="https://images2.vudu.com/assets/content/poster/2078042-144" alt="">
+              <div class="info">
+                <div class="txt">
+                  <h1 class="fs-5">Jurassic World Ultimate Collection (1-6) (B</h1>
+                  <span><b class="text-sm">Aug 22 </b><span class="badge bg-secondary">12min</span></span>
+                </div>
+                <button type="button" class="btn btn-outline-info btn-sm text-white d-block w-100 p-1">More</button>
+              </div>
+            </div>
+          </a>
+            <a href="/video.html">
+            <div class="single">
+              <img class="d-block m-auto" src="https://images2.vudu.com/assets/content/poster/2097570-144" alt="">
+              <div class="info">
+                <div class="txt">
+                  <h1 class="fs-5">One Way</h1>
+                  <span><b class="text-sm">Aug 22 </b><span class="badge bg-secondary">12min</span></span>
+                </div>
+                <button type="button" class="btn btn-outline-info btn-sm text-white d-block w-100 p-1">More</button>
+              </div>
+            </div>
+          </a>
+            <a href="/video.html">
+            <div class="single">
+              <img class="d-block m-auto" src="https://images2.vudu.com/assets/content/poster/1919386-144" alt="">
+              <div class="info">
+                <div class="txt">
+                  <h1 class="fs-5">Venom: Let There Be Carnage</h1>
+                  <span><b class="text-sm">Aug 22 </b><span class="badge bg-secondary">12min</span></span>
+                </div>
+                <button type="button" class="btn btn-outline-info btn-sm text-white d-block w-100 p-1">More</button>
+              </div>
+            </div>
+          </a>
+            
+            <a href="/video.html">
+            <div class="single">
+              <img class="d-block m-auto" src="https://images2.vudu.com/assets/content/poster/2042753-144" alt="">
+              <div class="info">
+                <div class="txt">
+                  <h1 class="fs-5">Rumble</h1>
+                  <span><b class="text-sm">Aug 22 </b><span class="badge bg-secondary">12min</span></span>
+                </div>
+                <button type="button" class="btn btn-outline-info btn-sm text-white d-block w-100 p-1">More</button>
+              </div>
+            </div>
+          </a>
+            <a href="/video.html">
+            <div class="single">
+              <img class="d-block m-auto" src="https://images2.vudu.com/assets/content/poster/2083672-144" alt="">
+              <div class="info">
+                <div class="txt">
+                  <h1 class="fs-5">DC League of Super-Pets</h1>
+                  <span><b class="text-sm">Aug 22 </b><span class="badge bg-secondary">12min</span></span>
+                </div>
+                <button type="button" class="btn btn-outline-info btn-sm text-white d-block w-100 p-1">More</button>
+              </div>
+            </div>
+          </a>
+            <a href="/video.html">
+            <div class="single">
+              <img class="d-block m-auto" src="https://images2.vudu.com/assets/content/poster/2087468-144" alt="">
+              <div class="info">
+                <div class="txt">
+                  <h1 class="fs-5">Minions/Minions: The Rise of Gru (Bundle)</h1>
+                  <span><b class="text-sm">Aug 22 </b><span class="badge bg-secondary">12min</span></span>
+                </div>
+                <button type="button" class="btn btn-outline-info btn-sm text-white d-block w-100 p-1">More</button>
+              </div>
+            </div>
+          </a>
+            <a href="/video.html">
+            <div class="single">
+              <img class="d-block m-auto" src="https://images2.vudu.com/assets/content/poster/2078042-144" alt="">
+              <div class="info">
+                <div class="txt">
+                  <h1 class="fs-5">Jurassic World Ultimate Collection (1-6) (B</h1>
+                  <span><b class="text-sm">Aug 22 </b><span class="badge bg-secondary">12min</span></span>
+                </div>
+                <button type="button" class="btn btn-outline-info btn-sm text-white d-block w-100 p-1">More</button>
+              </div>
+            </div>
+          </a>
+            <a href="/video.html">
+            <div class="single">
+              <img class="d-block m-auto" src="https://images2.vudu.com/assets/content/poster/2097570-144" alt="">
+              <div class="info">
+                <div class="txt">
+                  <h1 class="fs-5">One Way</h1>
+                  <span><b class="text-sm">Aug 22 </b><span class="badge bg-secondary">12min</span></span>
+                </div>
+                <button type="button" class="btn btn-outline-info btn-sm text-white d-block w-100 p-1">More</button>
+              </div>
+            </div>
+          </a>
+            <a href="/video.html">
+            <div class="single">
+              <img class="d-block m-auto" src="https://images2.vudu.com/assets/content/poster/1919386-144" alt="">
+              <div class="info">
+                <div class="txt">
+                  <h1 class="fs-5">Venom: Let There Be Carnage</h1>
+                  <span><b class="text-sm">Aug 22 </b><span class="badge bg-secondary">12min</span></span>
+                </div>
+                <button type="button" class="btn btn-outline-info btn-sm text-white d-block w-100 p-1">More</button>
+              </div>
+            </div>
+          </a>
+            
+            <a href="/video.html">
+            <div class="single">
+              <img class="d-block m-auto" src="https://images2.vudu.com/assets/content/poster/2042753-144" alt="">
+              <div class="info">
+                <div class="txt">
+                  <h1 class="fs-5">Rumble</h1>
+                  <span><b class="text-sm">Aug 22 </b><span class="badge bg-secondary">12min</span></span>
+                </div>
+                <button type="button" class="btn btn-outline-info btn-sm text-white d-block w-100 p-1">More</button>
+              </div>
+            </div>
+          </a>
+            <a href="/video.html">
+            <div class="single">
+              <img class="d-block m-auto" src="https://images2.vudu.com/assets/content/poster/2083672-144" alt="">
+              <div class="info">
+                <div class="txt">
+                  <h1 class="fs-5">DC League of Super-Pets</h1>
+                  <span><b class="text-sm">Aug 22 </b><span class="badge bg-secondary">12min</span></span>
+                </div>
+                <button type="button" class="btn btn-outline-info btn-sm text-white d-block w-100 p-1">More</button>
+              </div>
+            </div>
+          </a>
+            <a href="/video.html">
+            <div class="single">
+              <img class="d-block m-auto" src="https://images2.vudu.com/assets/content/poster/2087468-144" alt="">
+              <div class="info">
+                <div class="txt">
+                  <h1 class="fs-5">Minions/Minions: The Rise of Gru (Bundle)</h1>
+                  <span><b class="text-sm">Aug 22 </b><span class="badge bg-secondary">12min</span></span>
+                </div>
+                <button type="button" class="btn btn-outline-info btn-sm text-white d-block w-100 p-1">More</button>
+              </div>
+            </div>
+          </a>
+            <a href="/video.html">
+            <div class="single">
+              <img class="d-block m-auto" src="https://images2.vudu.com/assets/content/poster/2078042-144" alt="">
+              <div class="info">
+                <div class="txt">
+                  <h1 class="fs-5">Jurassic World Ultimate Collection (1-6) (B</h1>
+                  <span><b class="text-sm">Aug 22 </b><span class="badge bg-secondary">12min</span></span>
+                </div>
+                <button type="button" class="btn btn-outline-info btn-sm text-white d-block w-100 p-1">More</button>
+              </div>
+            </div>
+          </a>
+            <a href="/video.html">
+            <div class="single">
+              <img class="d-block m-auto" src="https://images2.vudu.com/assets/content/poster/2097570-144" alt="">
+              <div class="info">
+                <div class="txt">
+                  <h1 class="fs-5">One Way</h1>
+                  <span><b class="text-sm">Aug 22 </b><span class="badge bg-secondary">12min</span></span>
+                </div>
+                <button type="button" class="btn btn-outline-info btn-sm text-white d-block w-100 p-1">More</button>
+              </div>
+            </div>
+          </a>
+            <a href="/video.html">
+            <div class="single">
+              <img class="d-block m-auto" src="https://images2.vudu.com/assets/content/poster/1919386-144" alt="">
+              <div class="info">
+                <div class="txt">
+                  <h1 class="fs-5">Venom: Let There Be Carnage</h1>
+                  <span><b class="text-sm">Aug 22 </b><span class="badge bg-secondary">12min</span></span>
+                </div>
+                <button type="button" class="btn btn-outline-info btn-sm text-white d-block w-100 p-1">More</button>
+              </div>
+            </div>
+          </a>
+            
+            <a href="/video.html">
+            <div class="single">
+              <img class="d-block m-auto" src="https://images2.vudu.com/assets/content/poster/2042753-144" alt="">
+              <div class="info">
+                <div class="txt">
+                  <h1 class="fs-5">Rumble</h1>
+                  <span><b class="text-sm">Aug 22 </b><span class="badge bg-secondary">12min</span></span>
+                </div>
+                <button type="button" class="btn btn-outline-info btn-sm text-white d-block w-100 p-1">More</button>
+              </div>
+            </div>
+          </a>
+            <a href="/video.html">
+            <div class="single">
+              <img class="d-block m-auto" src="https://images2.vudu.com/assets/content/poster/2083672-144" alt="">
+              <div class="info">
+                <div class="txt">
+                  <h1 class="fs-5">DC League of Super-Pets</h1>
+                  <span><b class="text-sm">Aug 22 </b><span class="badge bg-secondary">12min</span></span>
+                </div>
+                <button type="button" class="btn btn-outline-info btn-sm text-white d-block w-100 p-1">More</button>
+              </div>
+            </div>
+          </a>
+            <a href="/video.html">
+            <div class="single">
+              <img class="d-block m-auto" src="https://images2.vudu.com/assets/content/poster/2087468-144" alt="">
+              <div class="info">
+                <div class="txt">
+                  <h1 class="fs-5">Minions/Minions: The Rise of Gru (Bundle)</h1>
+                  <span><b class="text-sm">Aug 22 </b><span class="badge bg-secondary">12min</span></span>
+                </div>
+                <button type="button" class="btn btn-outline-info btn-sm text-white d-block w-100 p-1">More</button>
+              </div>
+            </div>
+          </a>
+            <a href="/video.html">
+            <div class="single">
+              <img class="d-block m-auto" src="https://images2.vudu.com/assets/content/poster/2078042-144" alt="">
+              <div class="info">
+                <div class="txt">
+                  <h1 class="fs-5">Jurassic World Ultimate Collection (1-6) (B</h1>
+                  <span><b class="text-sm">Aug 22 </b><span class="badge bg-secondary">12min</span></span>
+                </div>
+                <button type="button" class="btn btn-outline-info btn-sm text-white d-block w-100 p-1">More</button>
+              </div>
+            </div>
+          </a>
+            <a href="/video.html">
+            <div class="single">
+              <img class="d-block m-auto" src="https://images2.vudu.com/assets/content/poster/2097570-144" alt="">
+              <div class="info">
+                <div class="txt">
+                  <h1 class="fs-5">One Way</h1>
+                  <span><b class="text-sm">Aug 22 </b><span class="badge bg-secondary">12min</span></span>
+                </div>
+                <button type="button" class="btn btn-outline-info btn-sm text-white d-block w-100 p-1">More</button>
+              </div>
+            </div>
+          </a>
+            <a href="/video.html">
+            <div class="single">
+              <img class="d-block m-auto" src="https://images2.vudu.com/assets/content/poster/1919386-144" alt="">
+              <div class="info">
+                <div class="txt">
+                  <h1 class="fs-5">Venom: Let There Be Carnage</h1>
+                  <span><b class="text-sm">Aug 22 </b><span class="badge bg-secondary">12min</span></span>
+                </div>
+                <button type="button" class="btn btn-outline-info btn-sm text-white d-block w-100 p-1">More</button>
+              </div>
+            </div>
+          </a>
+            
+
+            
+          </div>
+        </div>
+
+
+
+
+        <hr class="text-primary"/>
+
+ 
+        <footer class="px-5">
+          <div class="d-flex dwn">
+            <img src="./img/app store.png" alt="">
+            <img src="./img/play store.png" alt="">
+            <img src="./img/ms store.png" alt="">
+          </div>
+
+          <footer class="main row px-4 py-4">
+            <div class="col">
+              <h4 class="text-white">Watch</h4>
+              <ul class="list-unstyled text-white">
+                <li>Spotlight</li>
+                <li>Movies</li>
+                <li>TV</li>
+                <li>Free</li>
+              </ul>
+            </div>
+
+
+            <div class="col">
+              <h4 class="text-white">My Account</h4>
+              <ul class="list-unstyled text-white">
+                <li>My Vudu</li>
+                <li>Account</li>
+                <li>Settings</li>
+                <li>Manage Devices</li>
+              </ul>
+            </div>
+
+
+            <div class="col">
+              <h4 class="text-white">Features</h4>
+              <ul class="list-unstyled text-white">
+                <li>Lists</li>
+                <li>Family</li>
+                <li>Disc to Digital</li>
+                <li>Movies Anywhere</li>
+                <li>Gift Cards</li>
+              </ul>
+            </div>
+            <div class="col">
+              <h4 class="text-white">Help</h4>
+              <ul class="list-unstyled text-white">
+                <li>About Us</li>
+                <li>Devices</li>
+                <li>Customer Support</li>
+                <li>Forums</li>
+                <li>Contact Us</li>
+                <li>Advertise</li>
+                <li>Accessibility</li>
+                <li>Jobs</li>
+              </ul>
+            </div>
+            <div class="col">
+            </div>
+
+            <div class="d-flex icons d-flex justify-content-end">
+              <a href="" class="bg-info">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="" class="bg-primary">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="" class="bg-info">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a href="" class="bg-danger">
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+            </div>
+            <p>
+              <a class="terms" href="">Terms and PoliciesYour Privacy Rights - Privacy PolicyAdChoicesDo Not Sell My Personal InformationCalifornia NoticeFeedback</a>
+            </p>
+
+          </footer>
+        </footer>
+
+      <script src="./js/bootstrap.js"></script>
+      <script src="./js/bootstrap.js.map"></script>
+</body>
+</html>

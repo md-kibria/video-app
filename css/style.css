@@ -1,0 +1,118 @@
+body {
+    background: #041c2c;
+    /* font-family: mms; */
+}
+
+a {
+    text-decoration: none;
+}
+
+
+@font-face {
+    font-family: mms;
+    src: url(../webfonts/Montserrat-Regular.ttf);
+}
+
+#nav {
+    background-image: linear-gradient(to right, #3174ba , #104d76);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 15px;
+}
+
+
+.single {
+    position: relative;
+    color: white;
+}
+
+.info {
+    position: absolute;
+    top: 0;
+    background-color: rgba(2, 2, 2, 0.733);
+    width: 100%;
+    height: 100%;
+    padding: 15px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: display 0.5s ease;
+    display: none;
+}
+
+.info h1 {
+    font-size: 17px !important;
+}
+
+.single:hover > .info {
+    display: flex;
+}
+
+.dwn img {
+    height: 80px;
+    padding: 20px;
+}
+
+.icons a {
+    /* padding: 10px px; */
+    height: 42px;
+    width: 42px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background: #0d6efd;
+    color: white;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+footer .col li {
+    line-height: 35px;
+    color: #728c9e;
+}
+
+
+footer .col li:hover {
+    color: #fff;
+}
+
+footer .terms {
+    margin-top: 30px !important;
+}
+
+main.video .bg-img {
+    height: 450px;
+    background: url(https://images2.vudu.com/background/2042753-1280a.jpg);
+    background-repeat: no-repeat;
+    /* background-position: ; */
+    background-size: cover;
+    box-shadow: 10px 1px 10px #041c2c inset, 10px 50px 10px #041c2c88 inset;
+}
+
+ .video-info {
+    display: flex;
+    align-items: center;
+}
+/*
+.bg-img{
+    box-shadow: 30px 1px 10px #041c2c inset;
+}
+
+.bg-img img{
+    width: 100%;
+    box-shadow: 30px 1px 10px #041c2c inset;
+} */
+
+.mi {
+    font-family: mms;
+    line-height: 25px;
+}
+
+.video-player {
+    width: 100%;
+}
