@@ -14,7 +14,7 @@
     
       <nav id="nav" class="navbar navbar-expand-lg navbar-dark bg-primary px-4">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="/">
             <h3>Logo</h3>
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -66,19 +66,20 @@
 
 
 
-      <main class="row text-white px-5 video">
-        <div class="col my-5 row video-info">
+      <main class="row text-white md-px-5 px-4 video">
+        <div class="py-4 d-lg-none d-block"></div>
+        <div class="col-sm-12 col-lg-7 my-5 row video-info">
             <div class="col-2 w-auto">
                 <img src="https://images2.vudu.com/poster2/2042753-168" alt="">
             </div>
-            <div class="col">
+            <div class="col mt-2 mt-sm-0">
                 <h2>Rumble</h2>
                 <p>Comedy | Animation | Aug <span class="badge bg-secondary">PG</span> <span class="badge bg-secondary">12min</span> <span class="badge bg-secondary">CC</span></p>
                 <p>A girl trains a lovable underdog monster to become a wrestling champion.</p>
                 <button type="button" class="btn btn-primary" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" >Play Video</button>
             </div>
         </div>
-        <div class="col bg-img">
+        <div class="col-sm-12 col-lg-5 bg-img">
             <!-- <img src="https://images2.vudu.com/background/2042753-1280a.jpg" alt=""> -->
         </div>
       </main>
@@ -110,7 +111,7 @@
       <div class="more text-white mx-5 my-5">
         <h5>More Info</h5>
         <div class="row">
-            <ul class="list-unstyled text-white mi col">
+            <ul class="list-unstyled text-white mi col-sm-12 col-md-6">
                 <li>Genre: <span class="text-secondary">Comedy/Animation</span></li>
                 <li>Length: 95 minutes</li>
                 <li>Released: Aug 8</li>
@@ -120,7 +121,7 @@
                 <li>Rotten Tomatoes® Score  ROTTEN47%</li>
             </ul>
             
-            <ul class="list-unstyled text-white mi col">
+            <ul class="list-unstyled text-white mi col col-sm-12 col-md-6">
                 <li><span class="badge badge-outline bg-secondary">UHD</span> 4K, Dolby Vision, HDR10, Dolby Atmos <span class="text-secondary">Are you UHD ready?</span></li>
                 <li><span class="badge bg-secondary">HDX</span> 1080p, Dolby Digital Plus 5.1</li>
                 <li><span class="badge bg-secondary">SD</span> &nbsp;&nbsp;&nbsp;480p, Enhanced Widescreen, Dolby Digital Plus 5.1</li>
@@ -134,82 +135,85 @@
  
       <hr class="text-primary"/>
 
-        <footer class="px-5">
-          <div class="d-flex dwn">
-            <img src="./img/app store.png" alt="">
-            <img src="./img/play store.png" alt="">
-            <img src="./img/ms store.png" alt="">
+      <footer class="px-5">
+        <div class="d-flex dwn flex-column flex-sm-row">
+          <img src="./img/app store.png" alt="">
+          <img src="./img/play store.png" alt="">
+          <img src="./img/ms store.png" alt="">
+        </div>
+
+        <div class="main row px-4 py-4">
+          <div class="col-12 col-sm-6 col-md-2 my-2">
+            <h4 class="text-white">Watch</h4>
+            <ul class="list-unstyled text-white">
+              <li>Spotlight</li>
+              <li>Movies</li>
+              <li>TV</li>
+              <li>Free</li>
+            </ul>
           </div>
 
-          <footer class="main row px-4 py-4">
-            <div class="col">
-              <h4 class="text-white">Watch</h4>
-              <ul class="list-unstyled text-white">
-                <li>Spotlight</li>
-                <li>Movies</li>
-                <li>TV</li>
-                <li>Free</li>
-              </ul>
-            </div>
+
+          <div class="col-12 col-sm-6 col-md-3 my-2">
+            <h4 class="text-white">My Account</h4>
+            <ul class="list-unstyled text-white">
+              <li>My Vudu</li>
+              <li>Account</li>
+              <li>Settings</li>
+              <li>Manage Devices</li>
+            </ul>
+          </div>
 
 
-            <div class="col">
-              <h4 class="text-white">My Account</h4>
-              <ul class="list-unstyled text-white">
-                <li>My Vudu</li>
-                <li>Account</li>
-                <li>Settings</li>
-                <li>Manage Devices</li>
-              </ul>
-            </div>
+          <div class="col-12 col-sm-6 col-md-3 my-2">
+            <h4 class="text-white">Features</h4>
+            <ul class="list-unstyled text-white">
+              <li>Lists</li>
+              <li>Family</li>
+              <li>Disc to Digital</li>
+              <li>Movies Anywhere</li>
+              <li>Gift Cards</li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 my-2">
+            <h4 class="text-white">Help</h4>
+            <ul class="list-unstyled text-white">
+              <li>About Us</li>
+              <li>Devices</li>
+              <li>Customer Support</li>
+              <li>Forums</li>
+              <li>Contact Us</li>
+              <li>Advertise</li>
+              <li>Accessibility</li>
+              <li>Jobs</li>
+            </ul>
+          </div>
+          <div class="col-sm-0 col-md-2">
+          </div>
 
+          <div class="d-flex icons mb-4 d-flex justify-content-end">
+            <a href="" class="bg-info">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="" class="bg-primary">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="" class="bg-info">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="" class="bg-danger">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+          </div>
 
-            <div class="col">
-              <h4 class="text-white">Features</h4>
-              <ul class="list-unstyled text-white">
-                <li>Lists</li>
-                <li>Family</li>
-                <li>Disc to Digital</li>
-                <li>Movies Anywhere</li>
-                <li>Gift Cards</li>
-              </ul>
-            </div>
-            <div class="col">
-              <h4 class="text-white">Help</h4>
-              <ul class="list-unstyled text-white">
-                <li>About Us</li>
-                <li>Devices</li>
-                <li>Customer Support</li>
-                <li>Forums</li>
-                <li>Contact Us</li>
-                <li>Advertise</li>
-                <li>Accessibility</li>
-                <li>Jobs</li>
-              </ul>
-            </div>
-            <div class="col">
-            </div>
+          <hr class="text-primary">
+          <p class="text-white">
+            Copyright &copy; All rights reserved by 
+            <a class="terms" href="">goddylaz2018</a>
+          </p>
 
-            <div class="d-flex icons d-flex justify-content-end">
-              <a href="" class="bg-info">
-                <i class="fa-brands fa-linkedin-in"></i>
-              </a>
-              <a href="" class="bg-primary">
-                <i class="fa-brands fa-facebook-f"></i>
-              </a>
-              <a href="" class="bg-info">
-                <i class="fa-brands fa-twitter"></i>
-              </a>
-              <a href="" class="bg-danger">
-                <i class="fa-brands fa-youtube"></i>
-              </a>
-            </div>
-            <p>
-              <a class="terms" href="">Terms and PoliciesYour Privacy Rights - Privacy PolicyAdChoicesDo Not Sell My Personal InformationCalifornia NoticeFeedback</a>
-            </p>
-
-          </footer>
-        </footer>
+        </div>
+      </footer>
 
       <script src="./js/bootstrap.js"></script>
       <script src="./js/bootstrap.js.map"></script>
